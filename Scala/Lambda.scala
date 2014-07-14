@@ -1,12 +1,12 @@
 // Lambda.scala
 
 object Lambda {
-	def main(args: Array[String]) {
+  def main(args: Array[String]) {
 
-		println(
+    println(
         ((x: Int) => x + 2)(3)
       )
 
-	}
+  }
 }
 
