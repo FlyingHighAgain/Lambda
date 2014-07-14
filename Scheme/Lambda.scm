@@ -1,5 +1,5 @@
 -- Lambda.scm
 
-(display ((lambda (x) (* x x)) 3))
+(display ((lambda (x) (+ x 2)) 3))
 (newline)
 

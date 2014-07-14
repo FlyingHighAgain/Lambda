@@ -1,4 +1,5 @@
 -- Lambda.hs
 
-main = print $ (\x -> x * x) 3
+main = print $ (\x -> x + 2) 3
+
 

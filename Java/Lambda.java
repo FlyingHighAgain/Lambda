@@ -7,7 +7,7 @@ class Lambda {
     public static void main(String[] args) {
         
         System.out.println(
-            ((Function<Integer,Integer>)(x -> x * x)).apply(3)
+            ((Function<Integer,Integer>)(x -> x + 2)).apply(3)
           );
         
     }
